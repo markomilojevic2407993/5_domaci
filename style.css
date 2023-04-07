@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg_fixed{
+    background-image: url(img/plac.webp);
+    height: 75vh;
+    width: 100vw;
+    background-attachment:fixed ;
+    background-size: 100vw 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: rgb(247, 210, 0);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.car{
+    background-color: rgb(175, 170, 170);
+   
+    width: 306px;
+    height: 600px;
+    border: 3px solid rgb(26, 72, 133);
+}
+.cont {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
